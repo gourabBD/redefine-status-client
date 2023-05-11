@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+
+import { useState,useEffect, useContext } from 'react';
 import './App.css';
+import Main from './layout/Main';
+import { AuthContext } from './contexts/ThemeContextApi';
 
 function App() {
+  
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div   className="App overflow-x-hidden lg:pl-52 lg:pr-52 pt-5  min-h-screen bg-white dark:bg-black">
+   
+     <Main></Main>
     </div>
   );
 }

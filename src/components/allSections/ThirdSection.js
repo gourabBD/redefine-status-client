@@ -5,7 +5,7 @@ const ThirdSection = () => {
     return (
         <div data-aos="fade-down-right" className="mt-10 shadow-md shadow-slate-400 p-5">
       <h1 className="text-2xl text-primary font-semibold underline text-left">
-      The Simple Solution{" "}
+      The Simple Solution:{" "}
       </h1>
       <p className="mt-2 mb-10 text-lg font-medium text-slate-600 text-left">
       <span className='font-bold'>Thought experiments make it obvious that this idea is memetic, and just has not been tried in the market. Once one initial company opens up this model, many more will follow and copy:</span> <br />
